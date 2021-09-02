@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-family: 'poppins', sans-serif;
+    border: 2px darkgray transparent;
+    font-weight: 800;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+.bttn:hover{
+    color: var(--primary);
+    background-color: var(--ternary);
+    outline: var(--ternary);
+}
