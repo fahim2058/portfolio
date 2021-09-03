@@ -4,20 +4,35 @@
 .items-center{
     align-items: center;
 }
+
 .justify-between{
     justify-content: space-between;
 }
 .btn{
     padding: 0.8rem 3rem;
     font-family: 'poppins', sans-serif;
-    border: 2px darkgray transparent;
+    border: 2px var(--primary) transparent;
     font-weight: 800;
-    transition: .3s ease-in-out;
+    transition: all .3s ease-in-out;
     cursor: pointer;
+    outline: none;
+}
+.bttn{
+    background: var(--primary);
     outline: none;
 }
 .bttn:hover{
     color: var(--primary);
     background-color: var(--ternary);
     outline: var(--ternary);
+}
+.bttn-2:hover{
+    background: var(--ternary);
+    color: rgb(139, 244, 248);
+}
+.spacce-between{
+    padding: .5rem 0;
+}
+.svg-size{
+    height: 70px;
 }
