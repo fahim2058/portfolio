@@ -18,6 +18,7 @@ body{
 }
 header{
     background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
     
 }
 .container{
@@ -62,4 +63,7 @@ p{
 }
 .hero .logo a img{
     padding: 1rem 0 0 3rem;    
+}
+.hero .right{
+    padding: 4rem 0;
 }
