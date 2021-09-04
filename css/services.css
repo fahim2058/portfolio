@@ -1,0 +1,97 @@
+@import url(/css/utilities.css);
+:root{
+    --primary: #3dcfd3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #e0e0e0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+section.services{
+    background: var(--dark);
+}
+.container{
+    max-width: 90%;
+    padding: 3% 10%;
+}
+section .container h1{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: var(--light);
+}
+section .container h1 span{
+    color: var(--primary);
+}
+section .container h1 + p{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: var(--ternary);
+    margin-bottom: 6rem;
+}
+section .container .card-wraper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+section .container .card-wraper .card{
+    background: var(--ternary);
+    padding: 4rem 2rem 2rem;
+    position: relative;
+}
+section .container .card-wraper .card:hover{
+    background: transparent;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+section .container .card-wraper .card h3{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: .4rem;
+    text-decoration: none;
+}
+section .container .card-wraper .card h3 + h3{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: smaller;
+    line-height: 1rem;
+    color: var(--light);
+    text-decoration: none;
+}
+section .container .card-wraper .card img{
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+section.services .container .button a{
+    color: var(--dark);
+}
+.container .button{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    padding: 6rem 34%;
+}
+button{
+    font-size: 20px;
+    padding: 1rem 3rem;
+    border: transparent;
+    border-radius: 5px;
+    outline: transparent;
+    color: var(--black);
+    background: var(--primary);
+    font-family: 'poppins', sans-serif;
+    font-weight: 900;
+    transition: all .5s ease;
+}
+button:hover{
+    background: var(--ternary);
+    color: var(--primary);
+    
+}
